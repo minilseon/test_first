@@ -32,9 +32,9 @@ function App() {
       <hr />
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='members/*' element={<Members />} />
+        <Route path='/test' element={<Home />} />
+        <Route path='/test/about' element={<About />} />
+        <Route path='/test/members/*' element={<Members />} />
       </Routes>
         
     </div>
